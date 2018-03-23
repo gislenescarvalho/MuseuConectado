@@ -5,6 +5,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { ContactPage } from '../pages/contact/contact';
+import { GalleryPage } from '../pages/gallery/gallery';
+import { SchedulingPage } from '../pages/scheduling/scheduling';
+import { ResearchPage } from '../pages/research/research';
+import { SettingsPage } from '../pages/settings/settings';
+import { VideoPage } from '../pages/video/video';
 
 @Component({
   templateUrl: 'app.html'
