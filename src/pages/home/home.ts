@@ -19,4 +19,19 @@ export class HomePage {
 
   }
 
+  ionViewDidLoad() {
+    this.initMap();
+  }
+
+  initMap() {
+
+    this.map = new google.maps.Map(this.mapElement.nativeElement, {
+      zoom: 7,
+      center: {lat: 41.85, lng: -87.65}
+    });
+
+    this.directionsDisplay.setMap(this.map);
+
+  }
+
 }

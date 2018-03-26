@@ -84,4 +84,5 @@
     <plugin name="cordova-plugin-googlemaps" spec="^2.2.8">
         <variable name="API_KEY_FOR_ANDROID" value="AIzaSyDbwwGR5IFBDBvVZSZqsrHimQ5Gc9ot-5o" />
     </plugin>
+    <plugin name="cordova-plugin-youtube-video-player" spec="^1.0.6" />
 </widget>
