@@ -4,10 +4,12 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { AboutPage } from '../pages/about/about';
 import { ListPage } from '../pages/list/list';
 import { ContactPage } from '../pages/contact/contact';
 import { GalleryPage } from '../pages/gallery/gallery';
 import { SchedulingPage } from '../pages/scheduling/scheduling';
+import { ConfirmationSchedulingPage } from '../pages/confirmation-scheduling/confirmation-scheduling';
 import { ResearchPage } from '../pages/research/research';
 import { SettingsPage } from '../pages/settings/settings';
 import { VideoPage } from '../pages/video/video';
@@ -25,7 +27,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SchedulingPage,
     ResearchPage,
     SettingsPage,
-    VideoPage
+    VideoPage,
+    AboutPage,
+    ConfirmationSchedulingPage
+
   ],
   imports: [
     BrowserModule,
@@ -41,7 +46,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SchedulingPage,
     ResearchPage,
     SettingsPage,
-    VideoPage
+    VideoPage,
+    AboutPage,
+    ConfirmationSchedulingPage
   ],
   providers: [
     StatusBar,
