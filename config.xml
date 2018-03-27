@@ -85,4 +85,5 @@
         <variable name="API_KEY_FOR_ANDROID" value="AIzaSyDbwwGR5IFBDBvVZSZqsrHimQ5Gc9ot-5o" />
     </plugin>
     <plugin name="cordova-plugin-youtube-video-player" spec="^1.0.6" />
+    <engine name="android" spec="~7.0.0" />
 </widget>

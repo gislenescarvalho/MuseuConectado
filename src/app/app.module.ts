@@ -16,6 +16,7 @@ import { ConfirmationSchedulingPage } from '../pages/confirmation-scheduling/con
 import { ResearchPage } from '../pages/research/research';
 import { SettingsPage } from '../pages/settings/settings';
 import { VideoPage } from '../pages/video/video';
+import { ProfilePage } from '../pages/profile/profile';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -32,7 +33,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SettingsPage,
     VideoPage,
     AboutPage,
-    ConfirmationSchedulingPage
+    ConfirmationSchedulingPage,
+    ProfilePage
 
   ],
   imports: [
@@ -51,7 +53,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SettingsPage,
     VideoPage,
     AboutPage,
-    ConfirmationSchedulingPage
+    ConfirmationSchedulingPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,

@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-icon name="arrow-back"></ion-icon>
+    <ion-icon name="home"></ion-icon>
     <ion-title>Perfil Museu</ion-title>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
@@ -8,17 +8,47 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-start></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-end>
-        {{item.note}}
-      </div>
-    </button>
-  </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
+<ion-content class="cards-bg">
+
+  <ion-card>
+
+    <img src="assets/img/museu-indio.jpeg" />
+
+    <ion-card-content>
+      <ion-card-title>
+        Museu do Índio
+      </ion-card-title>
+      <p>
+        O Museu do Índio tem como missão colecionar, proteger, interpretar e difundir bens culturais indígenas, buscando o diálogo com a comunidade.
+      </p>
+    </ion-card-content>
+
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="primary" icon-start>
+          <ion-icon name='person'></ion-icon>
+          Curador
+        </button>
+      </ion-col>
+      <ion-col text-center>
+        <button ion-button clear small color="primary" icon-start>
+          <ion-icon name='images'></ion-icon>
+          Galeria
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button clear small color="primary" icon-start>
+          <ion-icon name='calendar'></ion-icon>
+          Agendar
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button clear small color="primary" icon-start>
+          <ion-icon name='thumbs-up'></ion-icon>
+          Avaliar
+        </button>
+    </ion-row>
+
+  </ion-card>
+
 </ion-content>
