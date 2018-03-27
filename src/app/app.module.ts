@@ -14,7 +14,6 @@ import { GalleryPage } from '../pages/gallery/gallery';
 import { SchedulingPage } from '../pages/scheduling/scheduling';
 import { ConfirmationSchedulingPage } from '../pages/confirmation-scheduling/confirmation-scheduling';
 import { ResearchPage } from '../pages/research/research';
-import { SettingsPage } from '../pages/settings/settings';
 import { VideoPage } from '../pages/video/video';
 import { ProfilePage } from '../pages/profile/profile';
 
@@ -30,7 +29,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     GalleryPage,
     SchedulingPage,
     ResearchPage,
-    SettingsPage,
     VideoPage,
     AboutPage,
     ConfirmationSchedulingPage,
@@ -50,7 +48,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     GalleryPage,
     SchedulingPage,
     ResearchPage,
-    SettingsPage,
     VideoPage,
     AboutPage,
     ConfirmationSchedulingPage,

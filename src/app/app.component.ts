@@ -10,7 +10,6 @@ import { ContactPage } from '../pages/contact/contact';
 import { GalleryPage } from '../pages/gallery/gallery';
 import { SchedulingPage } from '../pages/scheduling/scheduling';
 import { ResearchPage } from '../pages/research/research';
-import { SettingsPage } from '../pages/settings/settings';
 import { VideoPage } from '../pages/video/video';
 
 @Component({
@@ -32,7 +31,6 @@ export class MyApp {
       { title: 'About', component: AboutPage},
       { title: 'List', component: ListPage },
       { title: 'Contact', component: ContactPage},
-      { title: 'Settings', component: SettingsPage},
       { title: 'Research', component: ResearchPage},
       { title: 'Scheduling', component: SchedulingPage}
     ];
